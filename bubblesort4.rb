@@ -1,5 +1,6 @@
-list1 = [11, 4, 5, 12]
-list2 = [9, 1, 8, 5]
+list = [11, 4, 5, 12, 9, 1, 8, 5]
+l1 = list.slice(0..4)
+l2 = list.slice(4..8)
 
 def bubbSort(arr)
   size = arr.length
@@ -16,6 +17,6 @@ def bubbSort(arr)
   arr
 end
 
-p bubbSort(list1)
-p bubbSort(list2)
-p list1 + list2
+p bubbSort(l1)
+p bubbSort(l2)
+p l1 + l2
